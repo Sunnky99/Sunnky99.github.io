@@ -44,7 +44,14 @@
 
 
 
-<link rel="dns-prefetch" href="https://blog-waline-cj2n5ad4r-sunnky99.vercel.app/"><script async defer data-website-id="3264de11-a441-413f-9726-a793ca7cc857" src="https://umami-beta-seven.vercel.app/umami.js"></script>
+<link rel="dns-prefetch" href="https://blog-waline-cj2n5ad4r-sunnky99.vercel.app/">  <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+  <script>
+    Waline({
+      el: '#waline-comments',
+      serverURL: 'https://blog-waline-cj2n5ad4r-sunnky99.vercel.app/',
+    });
+  </script>
+
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
