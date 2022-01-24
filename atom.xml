@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>想要一杯拿铁吗？</title>
+  <icon>https://sunnky99.github.io/icon.png</icon>
+  
+  <link href="https://sunnky99.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sunnky99.github.io/"/>
+  <updated>2022-01-19T18:51:15.931Z</updated>
+  <id>https://sunnky99.github.io/</id>
+  
+  <author>
+    <name>Sunnky</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Weekly 1.10~1.16/忌迁就</title>
+    <link href="https://sunnky99.github.io/2022/01/20/Weekly1.10-1.16/"/>
+    <id>https://sunnky99.github.io/2022/01/20/Weekly1.10-1.16/</id>
+    <published>2022-01-19T16:00:00.000Z</published>
+    <updated>2022-01-19T18:51:15.931Z</updated>
+    
+    
+    <summary type="html">“自我反省是一种私下里做或者干脆别做的恶习。”</summary>
+    
+    
+    
+    <category term="Life is survival" scheme="https://sunnky99.github.io/categories/Life-is-survival/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="或许是周记" scheme="https://sunnky99.github.io/tags/%E6%88%96%E8%AE%B8%E6%98%AF%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记系统的简单整理01</title>
+    <link href="https://sunnky99.github.io/2022/01/14/%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%AE%80%E5%8D%95%E6%95%B4%E7%90%86/"/>
+    <id>https://sunnky99.github.io/2022/01/14/%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%AE%80%E5%8D%95%E6%95%B4%E7%90%86/</id>
+    <published>2022-01-13T16:00:00.000Z</published>
+    <updated>2022-01-19T19:17:55.651Z</updated>
+    
+    
+    <summary type="html">对现有笔记系统的一些整理，或许有一点点软件推荐。</summary>
+    
+    
+    
+    <category term="罐头集装箱" scheme="https://sunnky99.github.io/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="魔法扫帚" scheme="https://sunnky99.github.io/tags/%E9%AD%94%E6%B3%95%E6%89%AB%E5%B8%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书影音/January.2022</title>
+    <link href="https://sunnky99.github.io/2022/01/12/2022-01%E4%B9%A6%E5%BD%B1%E9%9F%B3/"/>
+    <id>https://sunnky99.github.io/2022/01/12/2022-01%E4%B9%A6%E5%BD%B1%E9%9F%B3/</id>
+    <published>2022-01-11T16:00:00.000Z</published>
+    <updated>2022-01-18T17:48:42.109Z</updated>
+    
+    
+    <summary type="html">01.12更新</summary>
+    
+    
+    
+    <category term="现视研" scheme="https://sunnky99.github.io/categories/%E7%8E%B0%E8%A7%86%E7%A0%94/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="闲敲棋子" scheme="https://sunnky99.github.io/tags/%E9%97%B2%E6%95%B2%E6%A3%8B%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Year 2021 / 人生游戏的2021版本游玩总结</title>
+    <link href="https://sunnky99.github.io/2022/01/06/weekly%202021last/"/>
+    <id>https://sunnky99.github.io/2022/01/06/weekly%202021last/</id>
+    <published>2022-01-05T16:00:00.000Z</published>
+    <updated>2022-01-12T13:50:42.403Z</updated>
+    
+    
+    <summary type="html">结束了一年，也该给个游戏版本剧情通关成就吧！</summary>
+    
+    
+    
+    <category term="Life is survival" scheme="https://sunnky99.github.io/categories/Life-is-survival/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="年终总结" scheme="https://sunnky99.github.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Weekly 12.13~12.19/我记忆力不好所以也不记仇</title>
+    <link href="https://sunnky99.github.io/2021/12/19/Weekly%2012.13~12.19%E6%88%91%E8%AE%B0%E5%BF%86%E5%8A%9B%E4%B8%8D%E5%A5%BD%E6%89%80%E4%BB%A5%E4%B9%9F%E4%B8%8D%E8%AE%B0%E4%BB%87/"/>
+    <id>https://sunnky99.github.io/2021/12/19/Weekly%2012.13~12.19%E6%88%91%E8%AE%B0%E5%BF%86%E5%8A%9B%E4%B8%8D%E5%A5%BD%E6%89%80%E4%BB%A5%E4%B9%9F%E4%B8%8D%E8%AE%B0%E4%BB%87/</id>
+    <published>2021-12-18T16:00:00.000Z</published>
+    <updated>2021-12-20T15:23:26.270Z</updated>
+    
+    
+    <summary type="html">本周我恢复了！</summary>
+    
+    
+    
+    <category term="Life is survival" scheme="https://sunnky99.github.io/categories/Life-is-survival/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="或许是周记" scheme="https://sunnky99.github.io/tags/%E6%88%96%E8%AE%B8%E6%98%AF%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章扫读/Aug.~Dec. 成长与政治</title>
+    <link href="https://sunnky99.github.io/2021/12/16/8%E6%9C%88~12%E6%9C%88%E6%96%87%E7%AB%A0%E6%89%AB%E8%AF%BB/"/>
+    <id>https://sunnky99.github.io/2021/12/16/8%E6%9C%88~12%E6%9C%88%E6%96%87%E7%AB%A0%E6%89%AB%E8%AF%BB/</id>
+    <published>2021-12-15T16:00:00.000Z</published>
+    <updated>2021-12-18T09:53:36.235Z</updated>
+    
+    
+    <summary type="html">简短的人类观察，一些给了我启发的文章。</summary>
+    
+    
+    
+    <category term="罐头集装箱" scheme="https://sunnky99.github.io/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="文章扫读" scheme="https://sunnky99.github.io/tags/%E6%96%87%E7%AB%A0%E6%89%AB%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书影音/December.2021</title>
+    <link href="https://sunnky99.github.io/2021/12/14/12%E6%9C%88%E4%B9%A6%E5%BD%B1%E9%9F%B3/"/>
+    <id>https://sunnky99.github.io/2021/12/14/12%E6%9C%88%E4%B9%A6%E5%BD%B1%E9%9F%B3/</id>
+    <published>2021-12-13T16:00:00.000Z</published>
+    <updated>2021-12-23T17:17:20.292Z</updated>
+    
+    
+    <summary type="html">还在看呢</summary>
+    
+    
+    
+    <category term="现视研" scheme="https://sunnky99.github.io/categories/%E7%8E%B0%E8%A7%86%E7%A0%94/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="闲敲棋子" scheme="https://sunnky99.github.io/tags/%E9%97%B2%E6%95%B2%E6%A3%8B%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Weekly 12.6~12.12/有点不太正常</title>
+    <link href="https://sunnky99.github.io/2021/12/14/Weekly%2012.6~12.12%20%E7%9F%9B%E7%9B%BE%E4%B8%8E%E8%87%AA%E8%AF%81/"/>
+    <id>https://sunnky99.github.io/2021/12/14/Weekly%2012.6~12.12%20%E7%9F%9B%E7%9B%BE%E4%B8%8E%E8%87%AA%E8%AF%81/</id>
+    <published>2021-12-13T16:00:00.000Z</published>
+    <updated>2021-12-18T09:55:22.108Z</updated>
+    
+    
+    <summary type="html">表面上是旅记，但其实</summary>
+    
+    
+    
+    <category term="Life is survival" scheme="https://sunnky99.github.io/categories/Life-is-survival/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="或许是周记" scheme="https://sunnky99.github.io/tags/%E6%88%96%E8%AE%B8%E6%98%AF%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有新头像啦！</title>
+    <link href="https://sunnky99.github.io/2021/12/13/%E6%9C%89%E6%96%B0%E5%A4%B4%E5%83%8F%E5%95%A6/"/>
+    <id>https://sunnky99.github.io/2021/12/13/%E6%9C%89%E6%96%B0%E5%A4%B4%E5%83%8F%E5%95%A6/</id>
+    <published>2021-12-12T16:00:00.000Z</published>
+    <updated>2021-12-18T09:48:06.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="罐头集装箱" scheme="https://sunnky99.github.io/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三词故事/洞</title>
+    <link href="https://sunnky99.github.io/2021/12/05/%E3%80%90%E4%B8%89%E8%AF%8D%E6%95%85%E4%BA%8B%E3%80%91%E6%B4%9E/"/>
+    <id>https://sunnky99.github.io/2021/12/05/%E3%80%90%E4%B8%89%E8%AF%8D%E6%95%85%E4%BA%8B%E3%80%91%E6%B4%9E/</id>
+    <published>2021-12-04T16:00:00.000Z</published>
+    <updated>2022-01-24T13:27:02.965Z</updated>
+    
+    
+    <summary type="html">三个词是：倒霉, 靠背, 列车</summary>
+    
+    
+    
+    <category term="一点小说" scheme="https://sunnky99.github.io/categories/%E4%B8%80%E7%82%B9%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+    <category term="落灯花" scheme="https://sunnky99.github.io/tags/%E8%90%BD%E7%81%AF%E8%8A%B1/"/>
+    
+    <category term="三词小说" scheme="https://sunnky99.github.io/tags/%E4%B8%89%E8%AF%8D%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三词故事/小杨老师早</title>
+    <link href="https://sunnky99.github.io/2021/12/03/%E3%80%90%E4%B8%89%E8%AF%8D%E6%95%85%E4%BA%8B%E3%80%91%E6%9D%A8%E8%80%81%E5%B8%88%E5%A5%BD/"/>
+    <id>https://sunnky99.github.io/2021/12/03/%E3%80%90%E4%B8%89%E8%AF%8D%E6%95%85%E4%BA%8B%E3%80%91%E6%9D%A8%E8%80%81%E5%B8%88%E5%A5%BD/</id>
+    <published>2021-12-02T16:00:00.000Z</published>
+    <updated>2022-01-24T13:27:06.167Z</updated>
+    
+    
+    <summary type="html">三个词是：崩裂, 级任, 黑痣</summary>
+    
+    
+    
+    <category term="一点小说" scheme="https://sunnky99.github.io/categories/%E4%B8%80%E7%82%B9%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+    <category term="落灯花" scheme="https://sunnky99.github.io/tags/%E8%90%BD%E7%81%AF%E8%8A%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>漫画推荐</title>
+    <link href="https://sunnky99.github.io/2021/11/30/%E6%BC%AB%E7%94%BB%E6%8E%A8%E8%8D%90/"/>
+    <id>https://sunnky99.github.io/2021/11/30/%E6%BC%AB%E7%94%BB%E6%8E%A8%E8%8D%90/</id>
+    <published>2021-11-29T16:00:00.000Z</published>
+    <updated>2021-12-03T13:22:03.423Z</updated>
+    
+    
+    <summary type="html">持续更新！</summary>
+    
+    
+    
+    <category term="罐头集装箱" scheme="https://sunnky99.github.io/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="推荐" scheme="https://sunnky99.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书影音/10-11月</title>
+    <link href="https://sunnky99.github.io/2021/11/22/10-11%E6%9C%88%E4%B9%A6%E5%BD%B1%E9%9F%B3/"/>
+    <id>https://sunnky99.github.io/2021/11/22/10-11%E6%9C%88%E4%B9%A6%E5%BD%B1%E9%9F%B3/</id>
+    <published>2021-11-21T16:00:00.000Z</published>
+    <updated>2021-12-18T09:54:00.799Z</updated>
+    
+    
+    <summary type="html">看了很多电视剧，待补完。</summary>
+    
+    
+    
+    <category term="现视研" scheme="https://sunnky99.github.io/categories/%E7%8E%B0%E8%A7%86%E7%A0%94/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="闲敲棋子" scheme="https://sunnky99.github.io/tags/%E9%97%B2%E6%95%B2%E6%A3%8B%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Weekly 11.1~11.21/新家</title>
+    <link href="https://sunnky99.github.io/2021/11/21/Weekly%2011.1~11.21%20%E6%96%B0%E5%AE%B6/"/>
+    <id>https://sunnky99.github.io/2021/11/21/Weekly%2011.1~11.21%20%E6%96%B0%E5%AE%B6/</id>
+    <published>2021-11-20T16:00:00.000Z</published>
+    <updated>2021-12-18T09:55:39.752Z</updated>
+    
+    
+    <summary type="html">总而言之，我家搬家了。</summary>
+    
+    
+    
+    <category term="Life is survival" scheme="https://sunnky99.github.io/categories/Life-is-survival/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="或许是周记" scheme="https://sunnky99.github.io/tags/%E6%88%96%E8%AE%B8%E6%98%AF%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Weekly 10.15~10.26/最近的病</title>
+    <link href="https://sunnky99.github.io/2021/10/26/%E6%9C%80%E8%BF%91%E7%9A%84%E7%97%85/"/>
+    <id>https://sunnky99.github.io/2021/10/26/%E6%9C%80%E8%BF%91%E7%9A%84%E7%97%85/</id>
+    <published>2021-10-25T16:00:00.000Z</published>
+    <updated>2021-12-18T09:55:28.436Z</updated>
+    
+    
+    <summary type="html">生病时的胡言乱语</summary>
+    
+    
+    
+    <category term="Life is survival" scheme="https://sunnky99.github.io/categories/Life-is-survival/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="或许是周记" scheme="https://sunnky99.github.io/tags/%E6%88%96%E8%AE%B8%E6%98%AF%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书影音/2021Summer</title>
+    <link href="https://sunnky99.github.io/2021/08/01/%E5%A4%8F%E5%AD%A3%E4%B9%A6%E5%BD%B1%E9%9F%B3%E8%AE%B0%E5%BD%95/"/>
+    <id>https://sunnky99.github.io/2021/08/01/%E5%A4%8F%E5%AD%A3%E4%B9%A6%E5%BD%B1%E9%9F%B3%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-07-31T16:00:00.000Z</published>
+    <updated>2021-12-18T09:55:07.742Z</updated>
+    
+    
+    <summary type="html">夏天结束了</summary>
+    
+    
+    
+    <category term="现视研" scheme="https://sunnky99.github.io/categories/%E7%8E%B0%E8%A7%86%E7%A0%94/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="闲敲棋子" scheme="https://sunnky99.github.io/tags/%E9%97%B2%E6%95%B2%E6%A3%8B%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人向歌舞视频推荐</title>
+    <link href="https://sunnky99.github.io/2021/05/10/%E4%B8%AA%E4%BA%BA%E5%90%91%E6%AD%8C%E8%88%9E%E8%A7%86%E9%A2%91%E5%AE%89%E5%88%A9/"/>
+    <id>https://sunnky99.github.io/2021/05/10/%E4%B8%AA%E4%BA%BA%E5%90%91%E6%AD%8C%E8%88%9E%E8%A7%86%E9%A2%91%E5%AE%89%E5%88%A9/</id>
+    <published>2021-05-09T16:00:00.000Z</published>
+    <updated>2021-12-03T13:22:01.469Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;纯路人不专业系推荐，推荐的完全是自己看着high的视频。&lt;/p&gt;
+&lt;p&gt;不断更新中······&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="罐头集装箱" scheme="https://sunnky99.github.io/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="推荐" scheme="https://sunnky99.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站建设日志</title>
+    <link href="https://sunnky99.github.io/2021/03/10/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E6%97%A5%E5%BF%97/"/>
+    <id>https://sunnky99.github.io/2021/03/10/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E6%97%A5%E5%BF%97/</id>
+    <published>2021-03-09T16:00:00.000Z</published>
+    <updated>2022-01-09T04:47:09.174Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="罐头集装箱" scheme="https://sunnky99.github.io/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/"/>
+    
+    
+    <category term="随笔" scheme="https://sunnky99.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021.3.咖喱、小酥肉与包菜肉卷</title>
+    <link href="https://sunnky99.github.io/2021/03/07/2021.3.%20%E5%92%96%E5%96%B1%E3%80%81%E5%B0%8F%E9%85%A5%E8%82%89%E4%B8%8E%E5%8C%85%E8%8F%9C%E8%82%89%E5%8D%B7%206d515147c7614e43a1b5377786d7d721/"/>
+    <id>https://sunnky99.github.io/2021/03/07/2021.3.%20%E5%92%96%E5%96%B1%E3%80%81%E5%B0%8F%E9%85%A5%E8%82%89%E4%B8%8E%E5%8C%85%E8%8F%9C%E8%82%89%E5%8D%B7%206d515147c7614e43a1b5377786d7d721/</id>
+    <published>2021-03-06T16:00:00.000Z</published>
+    <updated>2021-10-29T15:13:26.967Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Date: Mar 7, 2021&lt;/p&gt;
+&lt;p&gt;这周做了两顿晚餐，尝试了几个新菜谱。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Life is survival" scheme="https://sunnky99.github.io/categories/Life-is-survival/"/>
+    
+    
+    <category term="食与炊" scheme="https://sunnky99.github.io/tags/%E9%A3%9F%E4%B8%8E%E7%82%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>读书笔记 | 《疯癫与文明》</title>
+    <link href="https://sunnky99.github.io/2021/03/07/%E7%96%AF%E7%99%AB%E4%B8%8E%E6%96%87%E6%98%8E/"/>
+    <id>https://sunnky99.github.io/2021/03/07/%E7%96%AF%E7%99%AB%E4%B8%8E%E6%96%87%E6%98%8E/</id>
+    <published>2021-03-06T16:00:00.000Z</published>
+    <updated>2021-10-29T15:36:32.029Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;这本书是看的实体书。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;下面含有大量摘录与个人不成熟的想法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="现视研" scheme="https://sunnky99.github.io/categories/%E7%8E%B0%E8%A7%86%E7%A0%94/"/>
+    
+    
+    <category term="闲敲棋子" scheme="https://sunnky99.github.io/tags/%E9%97%B2%E6%95%B2%E6%A3%8B%E5%AD%90/"/>
+    
+  </entry>
+  
+</feed>
