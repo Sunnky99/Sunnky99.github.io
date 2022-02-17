@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "dd28b5d953d7ffbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d08334a771661673",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Weekly1.17-1.23.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99011e902ff241a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4a697d78748b932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb909b9413f83711",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9bd333b1b29ff386",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aa256e6acd7bd088",
+    "type": "split",
+    "children": [
+      {
+        "id": "119dfaaa5fdae161",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85c781753ba523ff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Weekly1.17-1.23.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d08334a771661673",
+  "lastOpenFiles": [
+    "Weekly1.17-1.23.md",
+    "weekly 2021last.md",
+    "Weekly1.10-1.16.md",
+    "8月~12月文章扫读.md",
+    "【三词故事】杨老师好.md",
+    "10-11月书影音.md",
+    "【三词故事】洞.md"
+  ]
+}
