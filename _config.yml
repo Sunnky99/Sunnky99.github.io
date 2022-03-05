@@ -127,3 +127,4 @@ live2d:
     height: 400 #显示高度
   mobile:
     show: false #手机端是否显示
+
