@@ -6,6 +6,7 @@ tags:
     - 或许是周记
     - 随笔
 categories: ['Life is survival']
+hidden: true
 description: 表面上是旅记，但其实
 ---
 痛苦与欢愉就像一体两面，你总能在某者的身上看到另外一个。
