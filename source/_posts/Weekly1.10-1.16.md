@@ -4,7 +4,6 @@ date: 2022-01-20
 id: 20220116weekly
 tags:
     - 或许是周记
-    - 随笔
 categories: ['Life is survival']
 description: “自我反省是一种私下里做或者干脆别做的恶习。”
 ---

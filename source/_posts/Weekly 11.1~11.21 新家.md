@@ -4,7 +4,6 @@ date: 2021-11-21
 id: xinjia
 tags:
     - 或许是周记
-    - 随笔
 categories: ['Life is survival']
 description: 总而言之，我家搬家了。
 ---

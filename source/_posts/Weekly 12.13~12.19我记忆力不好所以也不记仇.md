@@ -4,7 +4,6 @@ date: 2021-12-19
 id: moonmood
 tags:
     - 或许是周记
-    - 随笔
 categories: ['Life is survival']
 description: 本周我恢复了！
 ---
