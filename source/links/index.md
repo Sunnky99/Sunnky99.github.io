@@ -23,11 +23,13 @@ suica | https://suicablog.cobaltkiss.blue/ | suica's blog | https://suicablog.co
 
 棕榈叶下 | http://cronopio.space/ | 文字很温暖的棕榈！ | https://papers.moresci.sale/accounts/avatars/000/010/491/original/88ab71b04e53937a.png
 
+Missing 不想睡 | https://hugo-missingid.vercel.app/ | 和我一起做赛博宵夜吧! | https://github.com/Missingid/hugo/issues/1
+
 {% endlinkgrid %}
 
 <div style="text-align:center;">
   <span class="with-love" id="animate1"><i class="fa fa-heart"></i></span>
-  欢迎留言互换友链 o ((>ω<)) o
+  欢迎留言互换友链 ♥(´∀` )人
   <span class="with-love" id="animate2"><i class="fa fa-heart"></i></span>
 </div>
 
