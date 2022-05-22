@@ -61,17 +61,39 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
           <h1 class="site-title">
             
               <a href="/" rel="home" >
-                <img style="margin-bottom: 10px;"  width="124px" height="124px" alt="Hike News" src=" /css/images/blogicon.ico">
+                <img style="margin-bottom: 10px;"  width="124px" height="124px" alt="Hike News" src=" /css/images/butter.jpg">
               </a>
             
           </h1>
@@ -276,7 +298,7 @@
 <p>我愿将本月称为复古摇滚月，我开始完整地按照专辑来听这些老摇滚乐队了，一想到这些鼓动的音符在过往岁月中的沉沉浮浮，我就有些心潮澎湃。</p>
 <p>比起现代流行音乐更多地是带给我某种感情，我可以很轻易地判断出该用何种情绪去迎合这首歌，这些摇滚乐带给我的感受则更为复杂，不知道如何去对待他们······总之先赞一遍好听！歌词也如诗一般，我好想买这张专的黑胶放着听啊。</p>
 
-    <div id="aplayer-SwoNDrXl" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-dYlzimke" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="4237914" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -345,7 +367,7 @@
 <p>在没有成为异类之前，你是无法体会到异类的感受的。</p>
 </blockquote>
 
-    <div id="aplayer-ErGXqRem" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ZTLHTZhv" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1814263176" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -476,7 +498,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         
-    <div id="aplayer-YbxschYA" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-OSVQiCdI" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="16649894" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -549,7 +571,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         
-    <div id="aplayer-LJIikrct" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-XGeLvyYD" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="472045266" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -761,7 +783,7 @@
 </ol>
 <p>PS.说的是这首歌：</p>
 
-    <div id="aplayer-gJQObbwO" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-AodXgFMV" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18795455" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -930,7 +952,7 @@
 <h2 id="电影"><a href="#电影" class="headerlink" title="电影"></a><strong>电影</strong></h2><hr>
 <h3 id="·《魔法满屋》"><a href="#·《魔法满屋》" class="headerlink" title="·《魔法满屋》"></a>·《<em>魔法满屋</em>》</h3><p>故事结构好烂啊，不是单纯的故事不好的那种烂，是感觉一条完整的线被从中间剪掉了几段的那种故事结构烂（特别是后半段），不明白迪士尼这么成熟的工业流水线怎么做出了这样一个高潮都讲不好的电影，感觉故事还有很多可以挖掘的地方。 给四星纯是因为每个角色都很可爱，还有lmm的歌，以及水平依旧在线的画面质感。</p>
 
-    <div id="aplayer-yLEtzUnj" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-rWyDHRkL" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1896087128" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -985,7 +1007,7 @@
 <p>· 《软件体的生命周期》</p>
 <p>并不是简单的“人类的所作所为最终会反噬自己”的叙事，讨论了教育的内核与互联网的虚拟是否在某种维度上也是一种真实。</p>
 
-    <div id="aplayer-lDYDYFjm" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-KDkwIFrf" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="27926565" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -1075,7 +1097,7 @@
       
         <p>《<strong>Euphoria</strong>》— Labrinth</p>
 
-    <div id="aplayer-kcmfMExE" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ySeelBwy" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="82040115" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -1083,7 +1105,7 @@
 <p>最喜欢的是《Nate Growing Up》。</p>
 <p>《<strong>加爾基 精液 栗ノ花</strong>》— 椎名林檎</p>
 
-    <div id="aplayer-HToqrdYk" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-xzzoxMyT" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2085451" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -1373,6 +1395,9 @@
 
     <!-- headerblur min height -->
     
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
+    
     
 </script>
     
@@ -1454,5 +1479,5 @@
 
   <a id="rocket" href="#top" class=""></a>
   <script type="text/javascript" src="/js/totop.js" async=""></script>
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
 </html>

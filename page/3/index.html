@@ -61,17 +61,39 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
           <h1 class="site-title">
             
               <a href="/" rel="home" >
-                <img style="margin-bottom: 10px;"  width="124px" height="124px" alt="Hike News" src=" /css/images/blogicon.ico">
+                <img style="margin-bottom: 10px;"  width="124px" height="124px" alt="Hike News" src=" /css/images/butter.jpg">
               </a>
             
           </h1>
@@ -705,7 +727,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         
-    <div id="aplayer-SDaNgFOw" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-iUgJVHac" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="22006389" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -779,7 +801,7 @@
 <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482735783i/33584121.jpg" style="zoom: 50%;" />
 
 
-    <div id="aplayer-NbnLSjXA" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-QtFMGsdy" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="28064267" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -838,7 +860,7 @@
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Vx411b7Hc?spm_id_from=333.999.0.0">https://www.bilibili.com/video/BV1Vx411b7Hc?spm_id_from=333.999.0.0</a></p>
 <p>主题真的好妙，将伊丽莎白与死神之间的纠葛描写成爱情推拉，最终的死亡是自由，解开了身上的枷锁，迎来了爱情的Happy End，是灵与欲的合二为一，一场向死而生。<br>以及这部音乐剧所表达的如何看待历史人物的态度我非常喜欢，在以非常感性的视角描写伊丽莎白遇到的困苦时又演唱了《Kitsch》这首歌，仿佛在讽刺观众又仿佛在拆自己台，现在看到的史实也好、流传的各种故事也好，你也只能在这里面看到这个人物的剪影、看到自己想看的，真实情况到底如何，如同伊丽莎白演唱的——“Denn ich gehör nur mir.”（我只属于我自己）</p>
 
-    <div id="aplayer-hYCFHMMS" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-MSIgIaYD" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="5053636" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -1132,6 +1154,9 @@
 
     <!-- headerblur min height -->
     
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
+    
     
 </script>
     
@@ -1213,5 +1238,5 @@
 
   <a id="rocket" href="#top" class=""></a>
   <script type="text/javascript" src="/js/totop.js" async=""></script>
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
 </html>

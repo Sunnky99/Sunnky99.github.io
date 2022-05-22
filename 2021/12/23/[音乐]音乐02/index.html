@@ -66,17 +66,39 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
           <h1 class="site-title">
             
               <a href="/" rel="home" >
-                <img style="margin-bottom: 10px;"  width="124px" height="124px" alt="Hike News" src=" /css/images/blogicon.ico">
+                <img style="margin-bottom: 10px;"  width="124px" height="124px" alt="Hike News" src=" /css/images/butter.jpg">
               </a>
             
           </h1>
@@ -152,7 +174,7 @@
       
         <p>《Sea, Swallow Me》</p>
 
-    <div id="aplayer-yMcPybGw" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-vjQtvKyc" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18201824" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -160,7 +182,7 @@
 <p>因为也感觉有点热带气息，所以想到了一些美好的愿景：<br>什么时候我能拥有这样的房子呢？想要一个蓝绿色的小阳台，上面种了我的月季，我的龟背竹，放了透明的藤编小茶几，用白色的纱幔隔开，在雨后的夏日傍晚，t恤已经被汗黏在背上，趿着拖鞋，倚在栏边喝咖啡，看行人看云彩。</p>
 <p>《Gosia》</p>
 
-    <div id="aplayer-TtceLlhz" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-cQWWxUyx" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="472045272" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 <p>很温柔，有种被拥抱的温暖。</p>
@@ -291,6 +313,9 @@
 
     <!-- headerblur min height -->
     
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
+    
     
 </script>
     
@@ -372,5 +397,5 @@
 
   <a id="rocket" href="#top" class=""></a>
   <script type="text/javascript" src="/js/totop.js" async=""></script>
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
 </html>
