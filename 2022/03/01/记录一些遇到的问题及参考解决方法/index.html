@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>hexo&amp;hugo//记录一些遇到的问题及参考解决方法 | 想要一杯葡萄果茶吗？</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="网站建设" />
+  
+  
+  
+  
+  <meta name="description" content="解决就好。（没解决就继续想）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo&amp;hugo&#x2F;&#x2F;记录一些遇到的问题及参考解决方法">
+<meta property="og:url" content="https://sunnky99.github.io/2022/03/01/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9B%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E5%8F%82%E8%80%83%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/index.html">
+<meta property="og:site_name" content="想要一杯葡萄果茶吗？">
+<meta property="og:description" content="解决就好。（没解决就继续想）">
+<meta property="og:locale">
+<meta property="article:published_time" content="2022-02-28T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-05-21T22:26:34.293Z">
+<meta property="article:author" content="Sunnky">
+<meta property="article:tag" content="网站建设">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="想要一杯葡萄果茶吗？" type="application/atom+xml">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+<script src="/js/jquery-3.1.1.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
+
+<meta name="generator" content="Hexo 5.4.1"></head>
+
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+
+
+<header id="allheader" class="site-header" role="banner" 
+   >
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/" rel="home" >
+                <img style="margin-bottom: 10px;"  width="124px" height="124px" alt="Hike News" src=" /css/images/blogicon.ico">
+              </a>
+            
+          </h1>
+          
+          
+            <div class="site-description">最好是加了蒟蒻的</div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">Categories</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">Tags</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="links"> <a class="" href="/links">links</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+  </div>
+</header>
+
+
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-记录一些遇到的问题及参考解决方法" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      hexo&amp;hugo//记录一些遇到的问题及参考解决方法
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/03/01/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9B%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E5%8F%82%E8%80%83%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" class="article-date">
+	  <time datetime="2022-02-28T16:00:00.000Z" itemprop="datePublished">March 1, 2022</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/">罐头集装箱</a>
+ 
+      
+	<span id="busuanzi_container_page_pv">
+	  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+	</span>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="记录一些遇到的问题及参考解决方法"><a href="#记录一些遇到的问题及参考解决方法" class="headerlink" title="记录一些遇到的问题及参考解决方法"></a>记录一些遇到的问题及参考解决方法</h1><p>均是我建设此博客时遇到的一些问题，解决方案是我自己想到的或者搜到的，有些回答会比较想当然，仅供参考。</p>
+<p>如有错误或者更好的建议欢迎提出。</p>
+<hr>
+<h2 id="Ⅰ-HEXO"><a href="#Ⅰ-HEXO" class="headerlink" title="Ⅰ HEXO"></a>Ⅰ HEXO</h2><h2 id="一、-git相关"><a href="#一、-git相关" class="headerlink" title="一、 git相关"></a>一、 git相关</h2><h4 id="1-git-push本地库时显示OpenSSL-error-10054"><a href="#1-git-push本地库时显示OpenSSL-error-10054" class="headerlink" title="1. git push本地库时显示OpenSSL error 10054"></a>1. git push本地库时显示OpenSSL error 10054</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://server/Repo.git/&#x27;: Unknown SSL protocol error in connection to server:443</span><br></pre></td></tr></table></figure>
+
+<p>解决方案：禁用证书命令。</p>
+<p>试试：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config http.sslVerify&quot;false&quot;</span><br></pre></td></tr></table></figure>
+
+
+<p>或</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure>
+
+<p>或</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-git分支"><a href="#2-git分支" class="headerlink" title="2. git分支"></a>2. git分支</h4><p>① push后github上显示的是过往版本。</p>
+<p>本地.git文件夹是过往版本库的文件，所以总是覆盖，应当从github上克隆仓库文件获取其中的最新.git文件夹。</p>
+<p>② 本地文件变成了过往版本。</p>
+<p>是分支的问题，在执行git switch时切到了其他内容是过往版本的分支，切回最新版本所在的分支即可。</p>
+<p>③ 为什么即使不在main分支执行hexo d，在执行git push的next分支执行hexo d也可以更新github上main的内容？</p>
+<p>这样做的前提是将github上的默认分支更改为了hexo，且已在main分支放入了hexo生成的文件，在next分支放入了本地push的文件，本地_config.yml文件中设置的默认deploy分支是main。</p>
+<p>这样hexo d 与git push分属两个不同系统的命令就不会错乱了，上传到github后便会各归其位。</p>
+<h2 id="二、hexo-插件"><a href="#二、hexo-插件" class="headerlink" title="二、hexo 插件"></a>二、hexo 插件</h2><h4 id="1-本地搜索插件（未解决）"><a href="#1-本地搜索插件（未解决）" class="headerlink" title="1. 本地搜索插件（未解决）"></a>1. <a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-generator-searchdb">本地搜索插件</a>（未解决）</h4><p>初步判定是没有关联上，网页可以显示插件图标，但点击没有反应，f12始终显示class=”use-motion” 正常应当显示class=”use-motion” search-active。</p>
+<p>本地报错则是:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">ERROR Template render error: (N:\myblog\blog\themes\next\layout\_third-party\index.njk)</span><br><span class="line">  Template render error: (N:\myblog\blog\themes\next\layout\_third-party\index.njk)</span><br><span class="line">  Template render error: (N:\myblog\blog\themes\next\layout\_third-party\rating.njk)</span><br><span class="line">  Template render error: (N:\myblog\blog\themes\next\layout\_third-party\index.njk)</span><br><span class="line">  Template render error: (N:\myblog\blog\themes\next\layout\_third-party\search\localsearch.njk)</span><br><span class="line">  TypeError: Cannot destructure property &#x27;url&#x27; of &#x27;this.theme.vendors[name]&#x27; as it is undefined.</span><br><span class="line">    at Object._prettifyError (N:\myblog\blog\node_modules\nunjucks\src\lib.js:36:11)</span><br><span class="line">    at N:\myblog\blog\node_modules\nunjucks\src\environment.js:563:19</span><br><span class="line">    at Template.root [as rootRenderFunc] (eval at _compile (N:\myblog\blog\node_modules\nunjucks\src\environment.js:633:18), &lt;anonymous&gt;:230:3)</span><br><span class="line">    at Template.render (N:\myblog\blog\node_modules\nunjucks\src\environment.js:552:10)</span><br><span class="line">    at N:\myblog\blog\themes\next\scripts\renderer.js:33:33</span><br><span class="line">    at _View._compiledSync (N:\myblog\blog\node_modules\hexo\lib\theme\view.js:132:24)</span><br><span class="line">    ······</span><br></pre></td></tr></table></figure>
+<p>怎么说，次次试次次失败，不过这次得益于我最近学的东西，可以更有方向性地找问题了，先搁置一段时间，等我把目前手头上的计划做完，回来继续学web的时候再研究。</p>
+<h2 id="Ⅱ-HUGO"><a href="#Ⅱ-HUGO" class="headerlink" title="Ⅱ HUGO"></a>Ⅱ HUGO</h2><p>一、 配置更改</p>
+<ol>
+<li>音频格式适应</li>
+</ol>
+<p>b站：</p>
+<p><a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1858356">https://cloud.tencent.com/developer/article/1858356</a></p>
+<p>iframe自适应局中：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">iframe &#123;</span><br><span class="line">    width: 560px;</span><br><span class="line">    display: block;</span><br><span class="line">    margin: 0 auto;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E7%BD%90%E5%A4%B4%E9%9B%86%E8%A3%85%E7%AE%B1/">罐头集装箱</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/" rel="tag">网站建设</a></li></ul>
+
+      
+        
+	<div id="comment">
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
+	</div>
+
+
+
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/03/01/Weekly%201.1~3.1/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Weekly 1.17-3.1 / 三点钟都在做什么
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/02/17/%5B%E4%B9%A6%E5%BD%B1%E9%9F%B3%5D2022.1-2%E6%9C%88/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">书影音/1—2月.2022</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+      <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9B%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E5%8F%82%E8%80%83%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">记录一些遇到的问题及参考解决方法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E2%85%A0-HEXO"><span class="nav-number">1.1.</span> <span class="nav-text">Ⅰ HEXO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81-git%E7%9B%B8%E5%85%B3"><span class="nav-number">1.2.</span> <span class="nav-text">一、 git相关</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-git-push%E6%9C%AC%E5%9C%B0%E5%BA%93%E6%97%B6%E6%98%BE%E7%A4%BAOpenSSL-error-10054"><span class="nav-number">1.2.0.1.</span> <span class="nav-text">1. git push本地库时显示OpenSSL error 10054</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-git%E5%88%86%E6%94%AF"><span class="nav-number">1.2.0.2.</span> <span class="nav-text">2. git分支</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81hexo-%E6%8F%92%E4%BB%B6"><span class="nav-number">1.3.</span> <span class="nav-text">二、hexo 插件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6%EF%BC%88%E6%9C%AA%E8%A7%A3%E5%86%B3%EF%BC%89"><span class="nav-number">1.3.0.1.</span> <span class="nav-text">1. 本地搜索插件（未解决）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E2%85%A1-HUGO"><span class="nav-number">1.4.</span> <span class="nav-text">Ⅱ HUGO</span></a></li></ol></li></ol>
+    
+    </div>
+  </aside>
+</section>
+        
+      </div>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+    <a href="/links" class="mobile-nav-link">Links</a>
+  
+</nav> -->
+    <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2022 想要一杯葡萄果茶吗？ All Rights Reserved.
+        
+            <span id="busuanzi_container_site_uv">
+              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
+              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+            </span>
+          
+      </div>
+      <div class="site-credit">
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    
+    
+</script>
+    
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+<script src="/js/bootstrap.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
+</body>
+</html>
