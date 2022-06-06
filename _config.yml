@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 想要一杯拿铁吗？
+title: 想要一杯葡萄果茶吗？
 subtitle: ''
-description: '藏了一些松果'
+description: '最好是加了蒟蒻的葡萄果茶'
 keywords:
 author: 'Sunnky'
 language: zh-Hans
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: hipaper
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -112,7 +112,7 @@ aplayer:
 
 #猫猫
 live2d:
-  enable: true
+  enable: ture
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
@@ -145,3 +145,4 @@ search:
   field: post
   format: html
   content: false
+
