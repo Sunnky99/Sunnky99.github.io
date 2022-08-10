@@ -146,3 +146,11 @@ search:
   format: html
   content: false
 
+# Extensions
+plugins:
+  hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20

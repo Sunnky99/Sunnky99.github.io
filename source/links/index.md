@@ -19,7 +19,8 @@ toc:
 | <a href="https://blog.mysto.cyou">ᚳᚻᛖᚾᛗᚢ</a>  |  你好，这里是沉目的博客 |
 | <a href="http://cronopio.space/">棕榈叶下</a>  | *喜欢他的文字！* |
 | <a href="https://hugo-missingid.vercel.app/">Missing 不想睡</a>  | 和我一起做赛博宵夜吧!  |
-
+| <a href="https://notion-next-six-henna.vercel.app/">豆沙小猫</a>  | 不写同人的同人女，同人女间谍  |
+| <a href="https://sbeam.dev/">kei</a>  | Tech, life and open discussion  |
 
 >  欢迎留言互换友链 ♥(´∀` )人
 
