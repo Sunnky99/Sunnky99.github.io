@@ -50,6 +50,8 @@
   <link rel="stylesheet" href="/css/fashion.css" >
   <link rel="stylesheet" href="/css/glyphs.css" >
 
+  <script defer data-host="https://cusdis.com" data-app-id="b7969dc0-12d5-4be1-a210-ae227d8001a0" src="https://cusdis.com/js/cusdis-count.umd.js"></script>
+
 <meta name="generator" content="Hexo 5.4.1"><link rel="alternate" href="/atom.xml" title="想要一杯葡萄果茶吗？" type="application/atom+xml">
 <link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
 <script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
@@ -63,10 +65,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "https://s3.bmp.ovh/imgs/2022/08/26/46ddd239bede0049.png".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -143,7 +167,7 @@
       
         <p>《Sea, Swallow Me》</p>
 
-    <div id="aplayer-oEcxVtAc" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-RGAkzgsy" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18201824" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -151,7 +175,7 @@
 <p>因为也感觉有点热带气息，所以想到了一些美好的愿景：<br>什么时候我能拥有这样的房子呢？想要一个蓝绿色的小阳台，上面种了我的月季，我的龟背竹，放了透明的藤编小茶几，用白色的纱幔隔开，在雨后的夏日傍晚，t恤已经被汗黏在背上，趿着拖鞋，倚在栏边喝咖啡，看行人看云彩。</p>
 <p>《Gosia》</p>
 
-    <div id="aplayer-LKRtLexU" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-JGlFBbVM" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="472045272" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 <p>很温柔，有种被拥抱的温暖。</p>
@@ -278,14 +302,14 @@
       
         <p>《Can’t Help Falling In Love》</p>
 
-    <div id="aplayer-alNAuenu" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-JTJxVYyJ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="402070887" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
 <p>常听常新呢</p>
 <p>《BABY BLUE》</p>
 
-    <div id="aplayer-pOSlIock" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-hYiBqbUe" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="26111847" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -1171,6 +1195,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>

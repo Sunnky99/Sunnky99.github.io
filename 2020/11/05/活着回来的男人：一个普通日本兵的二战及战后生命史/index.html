@@ -57,6 +57,8 @@
   <link rel="stylesheet" href="/css/fashion.css" >
   <link rel="stylesheet" href="/css/glyphs.css" >
 
+  <script defer data-host="https://cusdis.com" data-app-id="b7969dc0-12d5-4be1-a210-ae227d8001a0" src="https://cusdis.com/js/cusdis-count.umd.js"></script>
+
 <meta name="generator" content="Hexo 5.4.1"><link rel="alternate" href="/atom.xml" title="想要一杯葡萄果茶吗？" type="application/atom+xml">
 </head>
 
@@ -67,10 +69,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "https://s3.bmp.ovh/imgs/2022/08/26/46ddd239bede0049.png".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -362,27 +386,14 @@
       
         
 	<div id="comment">
-		<!-- 来必力City版安装代码 -->
-		<div id="lv-container" data-id="city" data-uid="MTAyMC81NzAxNi8zMzQ4MA">
-		<script type="text/javascript">
-		   (function(d, s) {
-		       var j, e = d.getElementsByTagName(s)[0];
-
-		       if (typeof LivereTower === 'function') { return; }
-
-		       j = d.createElement(s);
-		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-		       j.async = true;
-
-		       e.parentNode.insertBefore(j, e);
-		   })(document, 'script');
-		</script>
-		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-		</div>
-		<!-- City版安装代码已完成 -->
+		<script type="text/javascript" id="wumiiComments">
+		    var wumiiPermaLink = "https://sunnky99.github.io/2020/11/05/%E6%B4%BB%E7%9D%80%E5%9B%9E%E6%9D%A5%E7%9A%84%E7%94%B7%E4%BA%BA%EF%BC%9A%E4%B8%80%E4%B8%AA%E6%99%AE%E9%80%9A%E6%97%A5%E6%9C%AC%E5%85%B5%E7%9A%84%E4%BA%8C%E6%88%98%E5%8F%8A%E6%88%98%E5%90%8E%E7%94%9F%E5%91%BD%E5%8F%B2/"; //请用代码生成文章永久的链接
+		    var wumiiTitle = "读书笔记 | 《活着回来的男人：一个普通日本兵的二战及战后生命史》"; //请用代码生成文章标题
+		    var wumiiSitePrefix = ""; //安装无觅评论插件的网站的域名，如果是放在子域名上，请提供子域名，如"http://blog.wumii.com"。如果这里填写的域名不对，请自行改正。
+		    var wumiiCommentParams = "&pf=JAVASCRIPT";
+	   	</script>
+		<script type="text/javascript" src="http://widget.wumii.cn/ext/cw/widget"></script>
 	</div>
-	
-
 
 
       
@@ -472,6 +483,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
