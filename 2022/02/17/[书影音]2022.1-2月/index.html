@@ -60,7 +60,6 @@
   <link rel="stylesheet" href="/css/fashion.css" >
   <link rel="stylesheet" href="/css/glyphs.css" >
 
-  <script defer data-host="https://cusdis.com" data-app-id="b7969dc0-12d5-4be1-a210-ae227d8001a0" src="https://cusdis.com/js/cusdis-count.umd.js"></script>
 
 <meta name="generator" content="Hexo 5.4.1"><link rel="alternate" href="/atom.xml" title="想要一杯葡萄果茶吗？" type="application/atom+xml">
 <link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
@@ -75,10 +74,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "https://s3.bmp.ovh/imgs/2022/08/26/46ddd239bede0049.png".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -159,7 +180,7 @@
 <h2 id="电影"><a href="#电影" class="headerlink" title="电影"></a><strong>电影</strong></h2><hr>
 <h3 id="·《魔法满屋》"><a href="#·《魔法满屋》" class="headerlink" title="·《魔法满屋》"></a>·《<em>魔法满屋</em>》</h3><p>故事结构好烂啊，不是单纯的故事不好的那种烂，是感觉一条完整的线被从中间剪掉了几段的那种故事结构烂（特别是后半段），不明白迪士尼这么成熟的工业流水线怎么做出了这样一个高潮都讲不好的电影，感觉故事还有很多可以挖掘的地方。 给四星纯是因为每个角色都很可爱，还有lmm的歌，以及水平依旧在线的画面质感。</p>
 
-    <div id="aplayer-OKNkjjBH" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-rKWyWIrO" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1896087128" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -214,7 +235,7 @@
 <p>· 《软件体的生命周期》</p>
 <p>并不是简单的“人类的所作所为最终会反噬自己”的叙事，讨论了教育的内核与互联网的虚拟是否在某种维度上也是一种真实。</p>
 
-    <div id="aplayer-kWghElVH" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-mbRMLbnA" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="27926565" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -364,6 +385,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
