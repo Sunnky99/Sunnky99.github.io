@@ -17,7 +17,7 @@
 <meta property="og:description" content="FRIENDS!👁️     Title Description    阿左 Q版画得超可爱！请找她画QQ头！   小球飞鱼 大家的blog轮椅，从塔塔这抄了好多博客教程   Chen FAN 师父教教我   Mengru   风格特别的blog，主题超可爱   suica suica’s blog   红豆年糕汤 咯咯哒   ᚳᚻᛖᚾᛗᚢ 你好，这里是沉目的博客   棕榈叶下 喜欢他的文字！">
 <meta property="og:locale">
 <meta property="article:published_time" content="2021-10-29T12:28:54.000Z">
-<meta property="article:modified_time" content="2022-09-17T10:24:39.648Z">
+<meta property="article:modified_time" content="2022-10-11T09:01:49.188Z">
 <meta property="article:author" content="Sunnky">
 <meta name="twitter:card" content="summary">
   
@@ -63,32 +63,10 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "https://s3.bmp.ovh/imgs/2022/08/26/46ddd239bede0049.png".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
 
 
 <header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+   >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -220,10 +198,6 @@
 <td>Quand on est tellement triste, on aime les couchers de soleil.</td>
 </tr>
 <tr>
-<td><a target="_blank" rel="noopener" href="https://summerwasover.vercel.app/">晴空</a></td>
-<td>像鸟儿编辑它们的飞行一般书写。</td>
-</tr>
-<tr>
 <td><a target="_blank" rel="noopener" href="https://cloudforent.online/">云屋出租</a></td>
 <td>天空一无所有/为何给我安慰</td>
 </tr>
@@ -234,6 +208,10 @@
 <tr>
 <td><a target="_blank" rel="noopener" href="https://dwight2333.vercel.app/">萤石洞穴</a></td>
 <td>洞穴生物和萤石矿床</td>
+</tr>
+<tr>
+<td><a href=""></a></td>
+<td></td>
 </tr>
 </tbody></table>
 <blockquote>
@@ -289,14 +267,30 @@
       
         
 	<div id="comment">
-		<script type="text/javascript" id="wumiiComments">
-		    var wumiiPermaLink = "https://sunnky99.github.io/links/index.html"; //请用代码生成文章永久的链接
-		    var wumiiTitle = "友情链接"; //请用代码生成文章标题
-		    var wumiiSitePrefix = ""; //安装无觅评论插件的网站的域名，如果是放在子域名上，请提供子域名，如"http://blog.wumii.com"。如果这里填写的域名不对，请自行改正。
-		    var wumiiCommentParams = "&pf=JAVASCRIPT";
-	   	</script>
-		<script type="text/javascript" src="http://widget.wumii.cn/ext/cw/widget"></script>
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC81NzAxNi8zMzQ4MA">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
 	</div>
+
+
+	
+	
+
 
 
       
@@ -364,6 +358,9 @@
 
     	<ul class="clearfix widget-social-icons">   
     	
+   			<li><a target="_blank" rel="noopener" href="https://pushoong.com/zh-hans/ask/1274027562" title="comment"><i class="fa fa-comment" aria-hidden="true"></i></a></li> 
+
+   		
    			<li><a target="_blank" rel="noopener" href="https://pixelfed.social/i/web/profile/363003568549890846" title="camera"><i class="fa fa-camera" aria-hidden="true"></i></a></li> 
 
    		
@@ -565,9 +562,6 @@
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>

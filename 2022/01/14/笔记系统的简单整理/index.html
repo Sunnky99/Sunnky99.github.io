@@ -77,32 +77,10 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "https://s3.bmp.ovh/imgs/2022/08/26/46ddd239bede0049.png".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
 
 
 <header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+   >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -185,7 +163,7 @@
 <p>综上所述，“时间”对我来说是一个非常重要的记录标准，所以我的笔记系统也是以时间为基础规划逻辑，按照“记录”与“思考”两种模式建立的，不存在以“提高生产力/效率”为初衷而开始使用的笔记，即使有也只是副产物。</p>
 <p>下面就简单介绍一下吧。</p>
 
-    <div id="aplayer-WUUTKzGH" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-OXYheAnl" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="26093207" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -266,14 +244,30 @@
       
         
 	<div id="comment">
-		<script type="text/javascript" id="wumiiComments">
-		    var wumiiPermaLink = "https://sunnky99.github.io/2022/01/14/%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%AE%80%E5%8D%95%E6%95%B4%E7%90%86/"; //请用代码生成文章永久的链接
-		    var wumiiTitle = "笔记系统的简单整理01"; //请用代码生成文章标题
-		    var wumiiSitePrefix = ""; //安装无觅评论插件的网站的域名，如果是放在子域名上，请提供子域名，如"http://blog.wumii.com"。如果这里填写的域名不对，请自行改正。
-		    var wumiiCommentParams = "&pf=JAVASCRIPT";
-	   	</script>
-		<script type="text/javascript" src="http://widget.wumii.cn/ext/cw/widget"></script>
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC81NzAxNi8zMzQ4MA">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
 	</div>
+
+
+	
+	
+
 
 
       
@@ -363,9 +357,6 @@
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
