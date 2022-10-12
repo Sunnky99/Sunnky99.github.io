@@ -64,10 +64,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "https://s3.bmp.ovh/imgs/2022/08/26/46ddd239bede0049.png".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -148,7 +170,7 @@
 <p>综上所述，“时间”对我来说是一个非常重要的记录标准，所以我的笔记系统也是以时间为基础规划逻辑，按照“记录”与“思考”两种模式建立的，不存在以“提高生产力/效率”为初衷而开始使用的笔记，即使有也只是副产物。</p>
 <p>下面就简单介绍一下吧。</p>
 
-    <div id="aplayer-OXYheAnl" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ZTrpgxhU" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="26093207" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -266,14 +288,14 @@
       
         <p>《超度我》</p>
 
-    <div id="aplayer-ZHjlRBqr" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-DtCpSudJ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1330472048" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 <p>甲方，你超度我罢！<br>（单曲循环这首歌写方案</p>
 <hr>
 <p>最近有很多喜欢的歌。</p>
 
-    <div id="aplayer-aSJRwOdL" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ZSKCQGFq" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="7226191538" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"
     ></div>
 
@@ -457,7 +479,7 @@
       
         <p>《Sea, Swallow Me》</p>
 
-    <div id="aplayer-jfWoVbXl" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-eOZZBEWG" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="18201824" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -465,7 +487,7 @@
 <p>因为也感觉有点热带气息，所以想到了一些美好的愿景：<br>什么时候我能拥有这样的房子呢？想要一个蓝绿色的小阳台，上面种了我的月季，我的龟背竹，放了透明的藤编小茶几，用白色的纱幔隔开，在雨后的夏日傍晚，t恤已经被汗黏在背上，趿着拖鞋，倚在栏边喝咖啡，看行人看云彩。</p>
 <p>《Gosia》</p>
 
-    <div id="aplayer-TyWTsHdG" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-PbnDqLCC" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="472045272" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 <p>很温柔，有种被拥抱的温暖。</p>
@@ -592,14 +614,14 @@
       
         <p>《Can’t Help Falling In Love》</p>
 
-    <div id="aplayer-YdAIgDMe" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-VlwkGuYx" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="402070887" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
 <p>常听常新呢</p>
 <p>《BABY BLUE》</p>
 
-    <div id="aplayer-HprEAILj" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-AvorDUzR" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="26111847" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -1262,6 +1284,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>

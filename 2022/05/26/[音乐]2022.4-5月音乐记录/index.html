@@ -72,10 +72,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "https://s3.bmp.ovh/imgs/2022/08/26/46ddd239bede0049.png".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -153,12 +175,12 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h3 id="《-San-Narciso-》—-Faded-Paper-Figures"><a href="#《-San-Narciso-》—-Faded-Paper-Figures" class="headerlink" title="《 San Narciso 》— Faded Paper Figures"></a>《 <strong>San Narciso</strong> 》— Faded Paper Figures</h3>
-    <div id="aplayer-wZHslTng" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-nsfqAAIb" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="27579126" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
 <h3 id="《-Love-Goes-》—-Sam-Smith-Labrinth"><a href="#《-Love-Goes-》—-Sam-Smith-Labrinth" class="headerlink" title="《 Love Goes 》— Sam Smith / Labrinth"></a>《 <strong>Love Goes</strong> 》— Sam Smith / Labrinth</h3>
-    <div id="aplayer-DAfUuPzi" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-PTlbWUKx" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1491137515" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -170,7 +192,7 @@
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1AF411T7kV">https://www.bilibili.com/video/BV1AF411T7kV</a></p>
 <p>被这个现场击中，感觉比录音室版本多了很多东西······好喜欢···········</p>
 
-    <div id="aplayer-LELNMPYK" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-JLoPIECt" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1424400870" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -178,7 +200,7 @@
 <br>
 
 <h3 id="《-Komorebi-》—-Craft-Spells"><a href="#《-Komorebi-》—-Craft-Spells" class="headerlink" title="《 Komorebi 》— Craft Spells"></a>《 <strong>Komorebi</strong> 》— Craft Spells</h3>
-    <div id="aplayer-nRHMqBtP" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-eSeLNKIp" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="28624258" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -190,7 +212,7 @@
 
 <p><strong>01. 《人々の祈り ～サベネア島：夜～》</strong></p>
 
-    <div id="aplayer-dpBrpgnd" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-oZwjkfTr" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1923184244" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -207,7 +229,7 @@
 
 <p><strong>02. 《帰らん、地平の彼方へ》</strong></p>
 
-    <div id="aplayer-WRCbgAug" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-tdNDdljo" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1923178573" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -216,14 +238,14 @@
 
 <p><strong>03. 《Echoes in the Distance》</strong></p>
 
-    <div id="aplayer-iLHjAYjF" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-aMxZTfrY" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1923196143" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
 <p>非常喜欢这个版本bgm的这张图，无尽的回声，有种···有种无机质一般的浩瀚······非常宇宙······<br>可惜推完剧情后这个bgm就被替换掉了，好想能自己选地图bgm啊。</p>
 <p>另外就是这支曲给我极乐迪斯科马丁内斯清晨的感觉，可能因为电子音音色的那部分挺像的，也可能因为听起来都挺孤独的。</p>
 
-    <div id="aplayer-gChXxhKQ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ejSykxcl" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2066714994" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -231,7 +253,7 @@
 
 <p><strong>《 Close in the Distance》</strong></p>
 
-    <div id="aplayer-RnAiMkiC" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-hOYJwcMs" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1923195180" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -241,7 +263,7 @@
 
 <p><strong>04. 《Flow》</strong></p>
 
-    <div id="aplayer-jqTYVAdO" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-PcEBrEGd" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1923201928" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-lrctype="1"
     ></div>
 
@@ -382,6 +404,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
